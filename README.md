@@ -1,7 +1,8 @@
 # CG-Review
 Model Grabbed from Miximo, it is the mannequin model. 
 
-
+# Reason for No Build Release
+When we pushed the build, and clicked release, the build did not show up. When we checked, Github gave an error and prevented us from submitting. The build is in the Build.zip. [Build.zip](https://github.com/JL-40/CG-Review/blob/main/Builds.zip)
 # Toon-Outline Shader 
 For our first shader we choose to make a toon-outline shader. By combining these two shaders we thought that we can have a stylized game reminiscent of the original.
 We believe that the main audience of the Knock-Out franchise would value a more cartoonish game rather than going all out for a realistic looking game.
