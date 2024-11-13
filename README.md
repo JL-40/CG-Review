@@ -26,3 +26,13 @@ This is so that the outline will actually be applied outwards (when using a posi
 The shader takes the normalized value (pointed outwards) and applies an offset value to create the width of the outline effect. 
 The initial point of the outline is where the mesh is facing the world and the end of the outline effect is how large (or small) the offset value is.
 This shader is essentially taking only the elements that are facing the world and generating a secondary mesh to create the outline effect. 
+
+# Bump Shader
+After that initial toon shader, we thought that our boxing ring's floor was too flat for the game we wanted to make. We thought that the lack of depth for the floor might be an issue.
+To solve this issue we decided to implement a bump shader for the floor of the boxing ring.
+![img_5.png](img_5.png)
+This shader is built off of the main shader to ensure that we have a consistent art style. The new attributes I added is the normal map and the bump strength. 
+I allowed for the bump map to go into the negatives so that the bump map can go into the ground as well as out to mimic the properties of rubber. 
+![img_6.png](img_6.png)
+Outside of what is the same with the shader above, the main difference is finding the normals and shifting them base on the normal mapping. 
+This gave our game scene a sense of depth and slightly more realism while still maintaining that cartoonish feeling. 
