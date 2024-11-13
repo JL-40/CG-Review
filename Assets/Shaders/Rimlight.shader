@@ -22,8 +22,6 @@ Shader "Custom/Rimlight"
                 float4 _RimColor;
                 float _RimPower;
 
-                float TAKE_DAMAGE;
-
                 void mycolor(Input IN, SurfaceOutput o, inout fixed4 color)
                 {
                     color *= _ColorTint;
