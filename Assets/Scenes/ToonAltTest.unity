@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.45142758, g: 0.5006832, b: 0.5710337, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -682,13 +682,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 783392566}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: 0.5317573, y: -0.66839117, z: 0.4909493, w: -0.17162813}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 28.279, y: 121.415, z: 266.902}
 --- !u!1 &1102970718
 GameObject:
   m_ObjectHideFlags: 0
@@ -1117,6 +1117,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227915231}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1359512871 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7878436149196389204, guid: 8986260d39e41b041b255f39fe36f9a2, type: 3}
+  m_PrefabInstance: {fileID: 1813298658}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1359512874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359512871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33843952c60785d47bfdb0d6e01a279c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _RimShader: {fileID: 0}
+  _Delay: 1
+  _Ouch: 0
 --- !u!1 &1398988441
 GameObject:
   m_ObjectHideFlags: 0
@@ -1491,12 +1511,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: f85f3c27b6a53144d9dccadfc9dcd86a, type: 2}
     - target: {fileID: 919132149155446097, guid: 8986260d39e41b041b255f39fe36f9a2, type: 3}
       propertyPath: m_Name
-      value: Ch36_nonPBR
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7878436149196389204, guid: 8986260d39e41b041b255f39fe36f9a2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1359512874}
   m_SourcePrefab: {fileID: 100100000, guid: 8986260d39e41b041b255f39fe36f9a2, type: 3}
 --- !u!1001 &1957760156
 PrefabInstance:
@@ -1553,10 +1576,10 @@ PrefabInstance:
     - target: {fileID: -4571605982943762130, guid: 8986260d39e41b041b255f39fe36f9a2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: f85f3c27b6a53144d9dccadfc9dcd86a, type: 2}
+      objectReference: {fileID: 2100000, guid: e7bedeec3c7de5c4b939ea275c11354c, type: 2}
     - target: {fileID: 919132149155446097, guid: 8986260d39e41b041b255f39fe36f9a2, type: 3}
       propertyPath: m_Name
-      value: Ch36_nonPBR (1)
+      value: Opponent
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
