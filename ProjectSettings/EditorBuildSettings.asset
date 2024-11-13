@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ToonAltTest.unity
+    guid: cae5dbd263ad92e4b94ab53ac4e7c60a
   m_configObjects: {}

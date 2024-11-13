@@ -36,3 +36,11 @@ I allowed for the bump map to go into the negatives so that the bump map can go 
 ![img_6.png](img_6.png)
 Outside of what is the same with the shader above, the main difference is finding the normals and shifting them base on the normal mapping. 
 This gave our game scene a sense of depth and slightly more realism while still maintaining that cartoonish feeling. 
+
+# Rim Lighting
+For the rim lighting, I took the rim lighting and added the necessary variables to allow for the usage of base color to the material and texture. 
+After do this, I copied the Toon-Outline Shader and merged the two together to allow the player to have both Toon-Outline and Rim Lighting when they take damage.
+
+# Dynamic Rim Lighting
+The rim lighting is dynamically changed through the a script that sets the rim power of the material. 
+By pressing ```Spacebar``` the rim power will be set to show maximum rim lighting, before a timer resets the rim power to show the lowest rim power.

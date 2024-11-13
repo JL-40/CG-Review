@@ -37,6 +37,11 @@ public class PlayerDamage : MonoBehaviour
 
     private void Update()
     {
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            _Ouch = true;
+        }
+
         TakeDamage();
 
         if (_Ouch)
